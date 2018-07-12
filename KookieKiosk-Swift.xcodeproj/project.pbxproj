@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660806CF198EB5CA00F44B65 /* DiscreteProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660806CE198EB5CA00F44B65 /* DiscreteProgressBar.swift */; };
+		660806D3198EB5F200F44B65 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 660806D0198EB5F200F44B65 /* coin.wav */; };
+		660806D4198EB5F200F44B65 /* gamedata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 660806D1198EB5F200F44B65 /* gamedata.plist */; };
+		660806D5198EB5F200F44B65 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 660806D2198EB5F200F44B65 /* hit.wav */; };
+		660CB39C197433310056DB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CB39B197433310056DB9E /* AppDelegate.swift */; };
+		660CB39E197433310056DB9E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 660CB39D197433310056DB9E /* GameScene.sks */; };
+		660CB3A0197433310056DB9E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CB39F197433310056DB9E /* GameScene.swift */; };
+		660CB3A2197433310056DB9E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CB3A1197433310056DB9E /* GameViewController.swift */; };
+		660CB3A5197433310056DB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660CB3A3197433310056DB9E /* Main.storyboard */; };
+		660CB3A7197433310056DB9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660CB3A6197433310056DB9E /* Images.xcassets */; };
+		660CB3C419743ECA0056DB9E /* StockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CB3C319743ECA0056DB9E /* StockItem.swift */; };
+		660CB3C6197440B30056DB9E /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CB3C5197440B30056DB9E /* Customer.swift */; };
+		660CB3C8197447670056DB9E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CB3C7197447670056DB9E /* Constants.swift */; };
+		661B13DB197EAC0500591825 /* ContinuousProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661B13DA197EAC0500591825 /* ContinuousProgressBar.swift */; };
+		668ED1631974938D00243435 /* GameDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668ED1621974938D00243435 /* GameDelegate.swift */; };
+		668ED1651976971B00243435 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668ED1641976971B00243435 /* ProgressBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		660806CE198EB5CA00F44B65 /* DiscreteProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscreteProgressBar.swift; sourceTree = "<group>"; };
+		660806D0198EB5F200F44B65 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = coin.wav; path = Resources/coin.wav; sourceTree = "<group>"; };
+		660806D1198EB5F200F44B65 /* gamedata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = gamedata.plist; path = Resources/gamedata.plist; sourceTree = "<group>"; };
+		660806D2198EB5F200F44B65 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hit.wav; path = Resources/hit.wav; sourceTree = "<group>"; };
+		660CB396197433310056DB9E /* KookieKiosk-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KookieKiosk-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660CB39A197433310056DB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660CB39B197433310056DB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		660CB39D197433310056DB9E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		660CB39F197433310056DB9E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		660CB3A1197433310056DB9E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		660CB3A4197433310056DB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		660CB3A6197433310056DB9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		660CB3C319743ECA0056DB9E /* StockItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockItem.swift; sourceTree = "<group>"; };
+		660CB3C5197440B30056DB9E /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		660CB3C7197447670056DB9E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		661B13DA197EAC0500591825 /* ContinuousProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinuousProgressBar.swift; sourceTree = "<group>"; };
+		668ED1621974938D00243435 /* GameDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDelegate.swift; sourceTree = "<group>"; };
+		668ED1641976971B00243435 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660CB393197433310056DB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660CB38D197433310056DB9E = {
+			isa = PBXGroup;
+			children = (
+				660CB398197433310056DB9E /* KookieKiosk-Swift */,
+				660CB397197433310056DB9E /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		660CB397197433310056DB9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660CB396197433310056DB9E /* KookieKiosk-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660CB398197433310056DB9E /* KookieKiosk-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				660CB3C7197447670056DB9E /* Constants.swift */,
+				660CB39B197433310056DB9E /* AppDelegate.swift */,
+				660CB39D197433310056DB9E /* GameScene.sks */,
+				660CB39F197433310056DB9E /* GameScene.swift */,
+				660CB3A1197433310056DB9E /* GameViewController.swift */,
+				660CB3C319743ECA0056DB9E /* StockItem.swift */,
+				660CB3C5197440B30056DB9E /* Customer.swift */,
+				668ED1621974938D00243435 /* GameDelegate.swift */,
+				668ED1641976971B00243435 /* ProgressBar.swift */,
+				660806CE198EB5CA00F44B65 /* DiscreteProgressBar.swift */,
+				661B13DA197EAC0500591825 /* ContinuousProgressBar.swift */,
+				660CB3A3197433310056DB9E /* Main.storyboard */,
+				660CB3C21974394E0056DB9E /* Resources */,
+				660CB3A6197433310056DB9E /* Images.xcassets */,
+				660CB399197433310056DB9E /* Supporting Files */,
+			);
+			path = "KookieKiosk-Swift";
+			sourceTree = "<group>";
+		};
+		660CB399197433310056DB9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660CB39A197433310056DB9E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		660CB3C21974394E0056DB9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				660806D0198EB5F200F44B65 /* coin.wav */,
+				660806D1198EB5F200F44B65 /* gamedata.plist */,
+				660806D2198EB5F200F44B65 /* hit.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660CB395197433310056DB9E /* KookieKiosk-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660CB3B6197433310056DB9E /* Build configuration list for PBXNativeTarget "KookieKiosk-Swift" */;
+			buildPhases = (
+				660CB392197433310056DB9E /* Sources */,
+				660CB393197433310056DB9E /* Frameworks */,
+				660CB394197433310056DB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KookieKiosk-Swift";
+			productName = "KookieKiosk-Swift";
+			productReference = 660CB396197433310056DB9E /* KookieKiosk-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660CB38E197433310056DB9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					660CB395197433310056DB9E = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 660CB391197433310056DB9E /* Build configuration list for PBXProject "KookieKiosk-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660CB38D197433310056DB9E;
+			productRefGroup = 660CB397197433310056DB9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660CB395197433310056DB9E /* KookieKiosk-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660CB394197433310056DB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660806D5198EB5F200F44B65 /* hit.wav in Resources */,
+				660CB3A7197433310056DB9E /* Images.xcassets in Resources */,
+				660806D3198EB5F200F44B65 /* coin.wav in Resources */,
+				660CB39E197433310056DB9E /* GameScene.sks in Resources */,
+				660806D4198EB5F200F44B65 /* gamedata.plist in Resources */,
+				660CB3A5197433310056DB9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660CB392197433310056DB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660CB3A0197433310056DB9E /* GameScene.swift in Sources */,
+				660806CF198EB5CA00F44B65 /* DiscreteProgressBar.swift in Sources */,
+				661B13DB197EAC0500591825 /* ContinuousProgressBar.swift in Sources */,
+				660CB3C6197440B30056DB9E /* Customer.swift in Sources */,
+				660CB3C419743ECA0056DB9E /* StockItem.swift in Sources */,
+				660CB3A2197433310056DB9E /* GameViewController.swift in Sources */,
+				668ED1631974938D00243435 /* GameDelegate.swift in Sources */,
+				660CB39C197433310056DB9E /* AppDelegate.swift in Sources */,
+				668ED1651976971B00243435 /* ProgressBar.swift in Sources */,
+				660CB3C8197447670056DB9E /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		660CB3A3197433310056DB9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660CB3A4197433310056DB9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660CB3B4197433310056DB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		660CB3B5197433310056DB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		660CB3B7197433310056DB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "KookieKiosk-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TUM.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		660CB3B8197433310056DB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "KookieKiosk-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TUM.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660CB391197433310056DB9E /* Build configuration list for PBXProject "KookieKiosk-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660CB3B4197433310056DB9E /* Debug */,
+				660CB3B5197433310056DB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660CB3B6197433310056DB9E /* Build configuration list for PBXNativeTarget "KookieKiosk-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660CB3B7197433310056DB9E /* Debug */,
+				660CB3B8197433310056DB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660CB38E197433310056DB9E /* Project object */;
+}
