@@ -165,12 +165,12 @@ class GameScene: SKScene {
     moneyLabel.text = String(format: "%i $", money)
     let stockItemDataSet = gameData!["stockItemData"] as! [[String: AnyObject]]
     for stockItemData in stockItemDataSet {
-      let itemType = stockItemData["type"] as AnyObject? as! String
-      let stockItemConfiguration = stockItemConfigurations[itemType] as [String: NSNumber]!
+      let itemType = stockItemData["type"] as! String
+      let stockItemConfiguration = stockItemConfigurations[itemType] as [String: NSNumber]?
       let stockItem  = StockItem(stockItemData: stockItemData, stockItemConfiguration: stockItemConfiguration!, gameDelegate: self)
-      let relativeX = stockItemData["x"] as AnyObject? as! Float
-      let relativeY = stockItemData["y"] as AnyObject? as! Float
-      stockItem.position = CGPoint(x: Int(relativeX * Float(size.width)), y: Int(relativeY * Float(size.height)))
+      let relativeX = stockItemData["x"]?.floatValue
+      let relativeY = stockItemData["y"]?.floatValue
+      stockItem.position = CGPoint(x: Int(relativeX! * Float(size.width)), y: Int(relativeY! * Float(size.height)))
       addChild(stockItem)
       stockItems.append(stockItem)
     }

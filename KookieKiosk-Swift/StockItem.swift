@@ -59,8 +59,8 @@ class StockItem: SKNode {
     
     type = stockItemData["type"] as AnyObject? as! String
     amount = stockItemData["amount"] as AnyObject? as! Int
-    relativeX = stockItemData["x"] as AnyObject? as! Float
-    relativeY = stockItemData["y"] as AnyObject? as! Float
+    relativeX = (stockItemData["x"]?.floatValue)!
+    relativeY = (stockItemData["y"]?.floatValue)!
     
     var relativeTimerPositionX: Float? = stockItemConfiguration["timerPositionX"]?.floatValue
     if relativeTimerPositionX == nil {
